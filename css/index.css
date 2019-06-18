@@ -1,0 +1,235 @@
+/* 一屏的高度 */
+html,body,.main{
+    height:100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+
+.swiper-button-next{
+    width:0.5rem;
+    height:0.4rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    position:absolute;
+    bottom:0.4rem;
+    left:50%;
+    margin-left:-0.25rem;
+    top:auto;
+    animation: slideInUp 1s infinite;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+/* 第一页 */
+.page1>img{
+    position:absolute;
+}
+.page1{
+   background:url("../images/beijing.jpg");
+   position:relative;
+}
+.desk{
+    width:5.34rem;
+    height:2.47rem;
+top: 0;
+right: 1rem;
+}
+
+.jianli{
+    widows: 6.4rem;
+    height:3.11rem;
+    left:0.6rem;
+    top:4rem;
+}
+.xinxi{
+    widows: 4.89rem;
+    height:1.78rem;
+    left:1.3rem;
+    top:8.5rem;
+}
+
+/* 第二页 */
+.page2{
+    position:relative;
+}
+.page2>img{
+    position:absolute;
+}
+.page2{
+    background:url("../images/beijing.jpg") center center no-repeat;
+    background-size:cover;
+}
+.ziti{
+    width:2.81rem;
+    height:0.46rem;
+    left:0.1rem;
+    top:0.5rem;
+}
+.zititupian{
+    left:0.5rem;
+    top:2rem;
+    width:6.4rem;
+    height:4.41rem;
+}
+.chao{width: 2.22rem;
+    height: 0.45rem;
+    top: 7.5rem;
+    left:0.1rem;
+}
+.msld{width: 6.4rem;
+    height: 3.86rem;
+    top: 8.5rem;
+    left:0.55rem;
+
+}
+.tubiao{
+    width: 2.22rem;
+    height: 0.46rem;
+    left:0.1rem;
+    top:0.5rem;
+}
+.tubiaotu{
+    width: 6.4rem;
+    height: 4.86rem;
+    top: 1.5rem;
+    left: 0.5rem;
+}
+.ps{ width: 2.22rem;
+    height: 0.46rem;
+    top: 7.5rem;
+    left:0.1rem;
+
+}
+.pssheji{ width: 6.4rem;
+    height: 2.83rem;
+    top: 8.5rem;
+    left:0.55rem;
+
+}
+
+
+/* page3 */
+.page3{
+    position:relative;
+    background:url("../images/beijing.jpg");
+    background-size:100% 100%;
+}
+.page3>img{
+    position: absolute;
+}
+.jvshou{
+ width:7.68rem;
+ height:11.65rem;
+ left:-0.1rem;
+    top:0.2rem;
+}
+.page3 .people{
+  width:1.33rem;
+  height:1rem;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.page4>img{
+    position:absolute;
+}
+.page4{
+   background:url("../images/beijing.jpg");
+   position:relative;
+}
+.zhuangshi{
+    width: 8.5rem;
+    height: 1.5rem;
+    top: 0rem;
+    left: -0.5rem;
+
+
+}
+.yxlm{
+    width: 5.6rem;
+    height: 3.7rem;
+    top: 1.3rem;
+    left:0.9rem;}
+    .paiban{ width: 2.5rem;
+        height: 0.5rem;
+        left:2.5rem;
+        top:0.5rem; }
+        .xiatu{width: 6.03rem;
+            height: 4.93rem;
+            left:0.7rem;
+            top:7rem;
+
+        }
+        .zhuangshi1{
+            width: 8.5rem;
+            height: 1.5rem;
+            top: 5rem;
+            left: -0.5rem;
+        
+        
+        }
+        .xiazi{width:2.5rem;
+            height: 0.6rem;
+            left:2.5rem;
+            top:6rem;
+
+        }
+        .page5>img{
+            position:absolute;
+        }
+        .page5{
+           background:url("../images/beijing.jpg");
+           position:relative;
+        }
+        .cao{
+            width: 7rem;
+            height: 2.65rem;
+            left: 0.5rem;
+            bottom: 1rem;
+        }
+        .zhalan{
+            width: 8rem;
+            height: 1.32rem;
+            left: 0rem;
+            bottom: 0.8rem;
+        }
+        .hudie{
+            width: 7rem;
+            height: 2.71rem;
+            bottom: 3rem;
+            left: 0rem;
+        }
+        .xiexie{
+            width: 3rem;
+            height: 3.28rem;
+            top: 3rem;
+            left: 2rem;
+          
+        }
